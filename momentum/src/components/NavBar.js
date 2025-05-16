@@ -9,8 +9,8 @@ import logo from "../assets/logo.png";
 const NavBar = () => {
     return (
     <Navbar expand="md" fixed="top">
-      <Container>
-        <Navbar.Brand> <img src={logo} alt="logo" height="35" /> </Navbar.Brand>
+      <Container fluid className="px-0">
+        <Navbar.Brand className="ps-3"> <img src={logo} alt="logo" height="35" /> </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
